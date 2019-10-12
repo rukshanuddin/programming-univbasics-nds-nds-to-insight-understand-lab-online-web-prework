@@ -8,6 +8,7 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
+pp directors_database
   row_index = 0
 while row_index < vm.length do
   puts "Row #{row_index} has #{directors_database[row_index]} columns"
