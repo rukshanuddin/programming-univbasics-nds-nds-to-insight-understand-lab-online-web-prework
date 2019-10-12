@@ -11,7 +11,7 @@ def print_first_directors_movie_titles
 
   row_index = 0
 while row_index < 1 do
-  puts "Row #{directors_database[row_index][:movies]}  columns"
+  pp "#{directors_database[row_index][:movies]}"
 
   row_index +=1
 
