@@ -13,7 +13,7 @@ pp directors_database
 while row_index < directors_database.length do
   puts "Row #{row_index} has #{directors_database[row_index]} columns"
 
-  column_index = 0
+  row_index += 1
 
 end
 end
