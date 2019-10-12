@@ -14,10 +14,6 @@ while row_index < directors_database.length do
   puts "Row #{row_index} has #{directors_database[row_index]} columns"
 
   column_index = 0
-  while column_index < directors_database[row_index].length do
-    coord = "#{row_index}, #{column_index}"
-    inner_len = directors_database[row_index][column_index].length
-    puts "\tCoordinate [#{coord}] points to an #{vm[row_index][column_index].class} of length #{inner_len}"
-  end
+
 end
 end
